@@ -61,6 +61,7 @@ shinyUI(fluidPage(
       
       
       h1("Wave Plot"),
+      h4("(Instructions for use provided below)"),
       plotOutput("waveplot", brush = brushOpts(id="brush1")),
       h3("Mean Amplitude of Selected Sine Wave Data:"),
       textOutput("brushedmeansine"),
